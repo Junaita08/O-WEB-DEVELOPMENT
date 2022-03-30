@@ -75,7 +75,7 @@ h6 {
 
 a {
 	color: #ffffff;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
@@ -193,10 +193,6 @@ a:hover {
 	margin-bottom: 1.25rem;
 }
 
-.form-group {
-	text-decoration: none;
-}
-
 .label-control {
 	position: absolute;
 	top: 1rem;
@@ -303,7 +299,7 @@ input[type='checkbox'] {
 	color: #005282;
 	font-weight: 600;
 	font-size: 0.875rem;
-	line-height: 2;
+	line-height: 0;
 	cursor: pointer;
 	transition: all 0.2s;
 }
@@ -415,15 +411,6 @@ input[type='checkbox'] {
 
 .header .fa-stack:hover .fa-stack-2x {
 	opacity: 1;
-}
-
-.form-group a {
-	padding-top: 13px;
-	text-decoration: none;
-}
-
-.form-group a:hover {
-	color: white;
 }
 
 
